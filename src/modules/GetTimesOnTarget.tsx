@@ -42,7 +42,7 @@ export const GetTimesOnTarget:React.FunctionComponent<TimesOnTargetMainProp> = (
 
     return (
         <div className="get-satellite-times-on-target px-5 pb-5">
-            <h4>Satellite Times On Target (enter the parameters to see all available times and to continue with the mission)</h4>
+            <h4>Satellite Times On Target (enter the parameters to see all available times and click Continue to continue with the mission)</h4>
             <div className="times-user-params">
                 <div className="row">
                     <div className="col-3">
