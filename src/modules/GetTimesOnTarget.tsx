@@ -47,21 +47,25 @@ export const GetTimesOnTarget:React.FunctionComponent<TimesOnTargetMainProp> = (
                 <div className="row">
                     <div className="col-3">
                         <div className="form-group">
+                            <label for='nlt'>Not Later Than</label>
                             <input type="text" ref={nltRef} className="form-control" id="nlt" placeholder="Date, Not Earlier Than" value="2023-03-03 03:27:26"/>
                         </div>
                     </div>
                     <div className="col-3">
                         <div className="form-group">
+                            <label for='nle'>Not Earlier Than</label>
                             <input type="text" ref={nleRef} className="form-control" id="nle" placeholder="Date, Not Later Than" value="2023-03-01 03:27:26"/>
                         </div>
                     </div>
                     <div className="col-3">
                         <div className="form-group">
+                            <label for='lon'>Longitude</label>
                             <input type="text" ref={lonRef} className="form-control" id="lon" placeholder="Longitude" value="-79.6"/>
                         </div>
                     </div>
                     <div className="col-3">
                         <div className="form-group">
+                            <label for='lat'>Latitude</label>
                             <input type="text" ref={latRef} className="form-control" id="lat" placeholder="Latitude" value="43.7"/>
                         </div>
                     </div>

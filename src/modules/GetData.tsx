@@ -25,7 +25,7 @@ export const GetData: React.FunctionComponent<DownloadDataProps> = (props) => {
 
     return (
         <div className='row onesat-data-download px-5'>
-            <h3>Your mission was successful</h3>
+            <h3>Your mission was successful!</h3>
             <DownloadData
                 data_url={allData.data_url}
                 logs_url={allData.logs_url}

@@ -14,6 +14,7 @@ const DownloadData: React.FunctionComponent<DownloadDataProps> = (props) => {
         accessKeyId: configData.awsAccessKey,
         secretAccessKey: configData.awsSecretKey,
     };
+
     const client = new S3Client({ region: 'us-east-2', credentials: CREDENTIAL });
 
     const getFilenameFromUrl = (url: string) => {
@@ -47,11 +48,11 @@ const DownloadData: React.FunctionComponent<DownloadDataProps> = (props) => {
 
         try {
             const response = await client.send(command);
-            const str = await response.Body?.transformToByteArray();
-            let zipBlob = new Blob([str], {
+            const missionDataFile = await response.Body?.transformToByteArray();
+            let zipBlob = new Blob([missionDataFile], {
                 type: 'application/zip',
             });
-            setTimeout(3000);
+            setTimeout(function() {},3000);
             downloadFile(zipBlob);
         } catch (err) {
             console.error(err);
