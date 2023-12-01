@@ -10,9 +10,12 @@ These can be obtained from Exodus Orbitals.
 Make sure you update the ```src/configs/config.json``` with all of the parameters. 
 The baseUrl, username, AWS keys etc., can be obtained from Exodus Orbitals.
 
-To run the application locally
-    yarn start
+To run the application locally:
 
+- ```yarn install```
+- ```yarn start```
+
+(you can use nmp too)
 
 https://exodusorbitals.com/
 
