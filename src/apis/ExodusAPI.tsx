@@ -1,3 +1,9 @@
+/**
+ * SDK for the satellite API
+ * Bojan Seirovski
+ * bojan.seirovski@exodusorbitals.com
+ * Exodus Orbitals
+ */
 import axios from 'axios';
 import configData from "../configs/config.json"
 
