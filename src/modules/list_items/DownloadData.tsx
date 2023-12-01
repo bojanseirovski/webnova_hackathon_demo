@@ -8,7 +8,7 @@ type DownloadDataProps = {
 }
 
 const DownloadData: React.FunctionComponent<DownloadDataProps> = (props) => {
-    const { data_url, logs_url } = props;
+    const { data_url } = props;
 
     const CREDENTIAL = {
         accessKeyId: configData.awsAccessKey,
@@ -68,15 +68,10 @@ const DownloadData: React.FunctionComponent<DownloadDataProps> = (props) => {
     }
 
     return (
-        <div className='row onesat-data'>
-            <h3>Your mission was successful, a mission data download will start automatically.</h3>
-            <div className="col-6">
+        <div className='row onesat-data pb-3'>
+            <div className="col-12">
                 <button className="btn btn-primary" onClick={triggerDownload}>Download Mission Data</button>
             </div>
-            <div className="col-6">
-                {logs_url}
-            </div>
-
         </div>
     );
 }
