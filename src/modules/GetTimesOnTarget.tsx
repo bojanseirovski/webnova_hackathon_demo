@@ -67,11 +67,11 @@ export const GetTimesOnTarget:React.FunctionComponent<TimesOnTargetMainProp> = (
                     </div>
                 </div>
                 <div className="row pt-3 pb-3">
-                    <div className="col-6">
-                        <button type="submit" className="btn btn-primary" onClick={getTimes}>Get Times</button>
+                <div className="col-6">
+                        <button type="submit" className="btn btn-primary" onClick={continueToCreateMission}>Continue</button>
                     </div>
                     <div className="col-6">
-                        <button type="submit" className="btn btn-primary" onClick={continueToCreateMission}>Continue</button>
+                        <button type="submit" className="btn btn-warning" onClick={getTimes}>Get Times</button>
                     </div>
                 </div>
             </div>
