@@ -1,9 +1,9 @@
 {
-    "baseUrl":"http://45.33.41.62",
+    "baseUrl":"",
     "userName":"testuser123",
-    "apiKey":"tJ9Izf58Somi3dN02cwsopRLDkf7QtSLu6Ag668kr4M",
-    "awsAccessKey":"AKIAZBVSHT6GWKC7YD5A",
-    "awsSecretKey":"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",
+    "apiKey":"",
+    "awsAccessKey":"",
+    "awsSecretKey":"",
     "awsBucket":"exodusorbitals",
     "headers": {
         "Content-Type": "application/json",
